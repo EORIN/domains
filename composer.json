@@ -1,0 +1,19 @@
+{
+    "name": "a/a",
+    "description": "a",
+    "autoload": {
+        "psr-4": {
+            "Articles\\Article\\": "src/MyProject/Articles"
+        }
+    },
+    "authors": [
+        {
+            "name": "eorin",
+            "email": "povorovegor@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "ext-pdo": "*"
+    }
+}
